@@ -18,7 +18,7 @@ body {
 .main-content {
   background-color: #ffffff;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-  padding-top: 60px;
+  padding-top: 30px;
   padding-right: 60px;
   padding-bottom: 90px;
 }
@@ -26,7 +26,6 @@ body {
 /* projects */
 
 .projects {
-  padding-left: 60px;
   margin-bottom: 50px;
 }
 
@@ -35,17 +34,16 @@ body {
   font-weight: 700;
   font-size: 25px;
   line-height: 27px;
-  color: #000000;  
+  color: #000000;
   background-color: #deeef9;
   padding-top: 7px;
-  padding-left: 25px;
+  padding-left: 55px;
   padding-bottom: 7px;
-  margin-bottom: 10px;  
+  margin-bottom: 10px;
 }
 
 .pjoject-list {
-  padding: 0;
-  margin-left: 15px;
+  padding-left: 72px; 
 }
 
 .project-item {
@@ -88,11 +86,48 @@ body {
   color: #000000;
 }
 
-/* work styles */
+/* Сertifications */
 
-.work {
-  padding-left: 60px;
+.сertifications {
+  margin-bottom: 50px;
 }
+
+.сertification-list {
+  padding-left: 72px; 
+  
+}
+
+.сertification-item {
+  padding-bottom: 5px;
+}
+
+/* Certifications */
+
+.certifications-list {
+list-style: none;
+}
+
+.certifications-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fb6d3a;
+  padding-left: 15px;
+  margin-bottom: 10px;
+}
+ 
+.certifications-list-item {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 17px;
+  color: #6a6a6a;
+  padding-left: 15px;
+  margin-bottom: 3px; 
+}
+
+/* Work */
 
 .work-position {
   font-style: normal;
@@ -100,6 +135,7 @@ body {
   font-size: 16px;
   line-height: 20px;
   color: #000000;
+  padding-left: 60px;
   margin-bottom: 10px;
 }
 
@@ -117,6 +153,7 @@ body {
   font-size: 12px;
   line-height: 15px;
   color: #a8a8a8;
+  padding-left: 60px;
   margin-bottom: 10px;
 }
 
@@ -129,8 +166,7 @@ body {
 }
 
 .work-list {
-  padding: 0;
-  margin-left: 15px;
+  padding-left: 72px;
 }
 
 .work-list-item {
@@ -142,11 +178,14 @@ body {
   list-style-type: disclosure-closed;
 }
 
-.education {
-  padding-left: 60px;
+/* Education */
+
+.education-list {
+  list-style: none;
+  padding-left: 55px;
 }
 
-.education-name {
+.education-title {
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -155,13 +194,16 @@ body {
   margin-bottom: 10px;
 }
 
-.education-position {
+.education-list-item {
   font-style: normal;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 17px;
-  color: #000000;
-  margin-bottom: 10px;
+  color: #6a6a6a;
+  margin-bottom: 3px;
+}
+
+.education-title {
 }
 
 /* sidebar styles*/
@@ -208,7 +250,7 @@ body {
 .about-position {
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 17px;
   color: #ece9e9;
   padding-left: 60px;
@@ -225,7 +267,7 @@ body {
 }
 
 .contacts-tel {
-  padding-bottom: 8px;
+  padding-bottom: 5px;
 }
 
 .svg-tel {
@@ -241,16 +283,11 @@ body {
 }
 
 .github {
-  padding-top: 10px;
+  padding-top: 5px;
   fill: #ffffff;
 }
 
 .linkedin {
-  padding-top: 10px;
-  fill: #ffffff;
-}
-
-.djinni {
   padding-top: 5px;
   fill: #ffffff;
 }
@@ -262,7 +299,7 @@ body {
   font-size: 22px;
   line-height: 27px;
   margin-bottom: 10px;
-  text-align: center; 
+  text-align: center;
 }
 
 .contact-type {
